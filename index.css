@@ -1,0 +1,103 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  margin-bottom: 0.6em !important;
+  font-size: 3em !important;
+}
+
+h2 {
+  margin-bottom: 0.6em !important;
+}
+
+li {
+  margin-top: 0.3em !important;
+}
+
+pre > code {
+  white-space: pre-wrap;
+  padding: 1em !important;
+}
+
+.group {
+  margin-bottom: 1em !important;
+}
+
+.plain-list {
+  list-style-type: none !important;
+}
+
+#fx-logo {
+  border: none;
+  box-shadow: none;
+  display: inline;
+  width: 240px;
+  margin-bottom: -60px;
+  margin-left: -50px;
+}
+
+#devtools-title {
+  margin-bottom: 100px;
+}
+
+#devtools {
+  display: inline;
+}
+
+#timings-pic {
+  width: 700px;
+}
+
+html.ml-fun > body {
+  background-color: rgb(94, 119, 241);
+  background-image: url("images/fun-ml.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html.transition-slide > body {
+  background: rgb(25, 25, 25) !important;
+  background-color: rgb(25, 25, 25) !important;
+}
+
+html.transition-slide .reveal {
+  color: white !important;
+}
+
+.blendin {
+  color: inherit !important;
+}
+
+#qs {
+  font-size: 200%;
+  vertical-align: middle;
+}
+
+#section-pics > img {
+  width: 240px;
+  margin: 0px 28px;
+}
+
+.img-src {
+  font-size: 90%;
+}
+
+.demo-link {
+  font-size: 1.2em !important;
+}
+
+.good {
+  color: rgb(16, 164, 247) !important;
+  font-weight: bold !important;
+}
+
+.bad {
+  color: rgb(170, 0, 0) !important;
+  font-weight: bold !important;
+}
+
+.chosen {
+  font-weight: bold !important;
+}

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>In-content Devtools with Web APIs</title>
+    <link rel="stylesheet" href="reveal.min.css"/>
+    <link rel="stylesheet" href="simple.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="highlight.js"></script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section id="intro">
+           <h2>Make your own devtools using secret web APIs</h2>
+           <div>Heather Arthur</div>
+           <div>@harthvader</div>
+           <div>github/harthur</div>
+        </section>
+        <section id="california">
+          <h2>California => black and white cookies</h2>
+        </section>
+        <section id="devtools">
+          <div id="devtools-title">
+            <img id="fx-logo" src="images/firefox.png"></img>
+            <h2 id="devtools">Developer Tools</h2>
+          </div>
+          <img id="devtools-screen" src="images/devtools.png"></img>
+        </section>
+        <section id="firebug-lite">
+          <h2>Firebug Lite</h2>
+          <ul>
+            <li><a href="http://getfirebug.com/firebuglite">
+              getfirebug.com/firebuglite</a>
+            </li>
+            <li>circa 2006</li>
+            <li>bookmarklet and inject script</li>
+          </ul>
+          <img id="fbug-lite-screen" src="images/firebug-lite.png"></img>
+        </section>
+        <section id="mini-tools">
+          <h2>mini tools</h2>
+          <h2>Firebug Lite Lyte</h2>
+        </section>
+        <section id="demo" data-state="transition-slide">
+          <h1>Demo</h1>
+          <a class="blendin demo-link"
+            href="http://harthur.github.com/kittydar">
+          </a>
+        </section>
+        <section id="the-apis">
+          <h1>The APIs</h1>
+          <h4>used in mini tools:</h4>
+          <ul>
+            <li><code>window.onerror</code></li>
+            <li><code>window.performance</code></li>
+            <li><code>document.elementFromPoint()</code></li>
+          </ul>
+        </section>
+        <section id="the-apis-inspector">
+          <h2>The APIs</h2>
+          <h4>DOM and CSS</h4>
+          <img src="images/inspector-apis.png"></img>
+        </section>
+        <section id="the-apis-styleeditor">
+          <h2>The APIs</h2>
+          <h4>DOM and CSS</h4>
+          <img src="images/styleeditor-apis.png"></img>
+        </section>
+        <section id="the-apis-performance">
+          <h2>The APIs</h2>
+          <code>window.performance.timing</code>
+          <img id="timings-pic" src="images/timings.png"></img>
+        </section>
+
+        <section id="in-content">
+          <h1>In-content devtools</h1>
+          <ul>
+            <li><a>pesticide.io</a> - layout debugging</li>
+            <li><a>goggles.webmaker.org</a> - inspecting HTML</li>
+            <li><a>bgrins.github.io/devtools-snippets</a></li>
+          </ul>
+        </section>
+        <section id="the-end">
+        </section>
+      </div>
+    </div>
+
+    <script src="reveal.min.js"></script>
+    <script>
+    Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // Apply a 3D roll to links on hover
+        rollingLinks: false,
+
+        // Transition style
+        transition: 'none' // default/cube/page/concave/zoom/linear/fade/none
+
+    });
+    </script>
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="highlight-github.css">
+    <script src="highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
